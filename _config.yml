@@ -68,6 +68,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-	type: git
-	repo: https://github.com/purple97/dundunBlog.git
-	branch: master
+  type: git
+  host: /public
+  repo: https://github.com/purple97/dundunBlog.git
+  branch: master
